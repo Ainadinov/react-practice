@@ -1,6 +1,8 @@
+import Converter from './component/converter/converter';
 import Counter from './component/counter/counter';
 import Invitation from './component/invite/invite';
 import Modal from './component/modal/modal';
+import Photos from './component/photos/photos';
 import Quiz from './component/quiz/quiz';
 
 function App() {
@@ -9,7 +11,9 @@ function App() {
       {/* <Counter/> // Счётчик */}
       {/* <Modal/> */}
       {/* <Quiz/> */}
-      <Invitation/>
+      {/* <Invitation/> */}
+      {/* <Converter/> */}
+      <Photos/>
     </>
   );
 }
