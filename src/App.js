@@ -4,6 +4,7 @@ import Invitation from './component/invite/invite';
 import Modal from './component/modal/modal';
 import Photos from './component/photos/photos';
 import Quiz from './component/quiz/quiz';
+import SignUser from './component/SignUser/SignUser';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Quiz/> */}
       {/* <Invitation/> */}
       {/* <Converter/> */}
-      <Photos/>
+      {/* <Photos/> */}
+      <SignUser/>
     </>
   );
 }
