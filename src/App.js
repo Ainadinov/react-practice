@@ -4,6 +4,7 @@ import Invitation from './component/invite/invite';
 import Modal from './component/modal/modal';
 import Photos from './component/photos/photos';
 import Quiz from './component/quiz/quiz';
+import SideBars from './component/sideBars/sideBars';
 import SignUser from './component/SignUser/SignUser';
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
       {/* <Invitation/> */}
       {/* <Converter/> */}
       {/* <Photos/> */}
-      <SignUser/>
+      {/* <SignUser/> */}
+      <SideBars/>
     </>
-  );
+  )
 }
 
 export default App;
