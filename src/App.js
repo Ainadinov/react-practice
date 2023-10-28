@@ -6,6 +6,7 @@ import Photos from './component/photos/photos';
 import Quiz from './component/quiz/quiz';
 import SideBars from './component/sideBars/sideBars';
 import SignUser from './component/SignUser/SignUser';
+import WebShop from './component/webShop';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Converter/> */}
       {/* <Photos/> */}
       {/* <SignUser/> */}
-      <SideBars/>
+      {/* <SideBars/> */}
+      <WebShop/>
     </>
   )
 }
